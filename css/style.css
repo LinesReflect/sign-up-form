@@ -101,6 +101,11 @@ input {
   border-radius: 5px;
 }
 
+input:hover {
+  border: solid rgb(128, 128, 128, .5) 2px;
+  background-color: rgb(171, 169, 160, .1);
+}
+
 input:focus {
   outline: none;
   border: solid blue 2px;
@@ -114,11 +119,11 @@ input:invalid {
 
 button:hover {
   cursor: pointer;
+  box-shadow: inset 0em 0em .5em .2em rgb(0, 0, 0, .1);
 }
 
 button:active {
-  background-color: #807d72;
-  box-shadow: inset 0em 0em .5em .2em rgb(0, 0, 0, .25);
+  box-shadow: inset 0em 0em .5em .2em rgb(0, 0, 0, .5);
 }
 
 .sign-up-button {
