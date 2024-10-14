@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .full-container {
@@ -36,8 +39,7 @@
 .brand-name {
   text-align: center;
   font-size: 100px;
-  text-shadow: 2px 0px 4px white;
-  -webkit-text-stroke: .5px white;
+  text-shadow: 1px 5px 10px #ffffff;
 }
 
 .text-container {
