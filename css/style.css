@@ -106,15 +106,28 @@ input:hover {
   background-color: rgb(171, 169, 160, .1);
 }
 
+input:invalid {
+  border: solid red 2px;
+}
+
+input:invalid + span::after {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  content: "Not valid";
+  color: red;
+  font-size: 10px;
+}
+
+input:focus + span::after {
+  content: "";
+}
+
 input:focus {
   outline: none;
   border: solid blue 2px;
   background-color: rgb(173, 216, 230, .25);
   box-shadow: 2px 0px 10px -2px black;
-}
-
-input:invalid {
-  border: solid red 2px;
 }
 
 button:hover {
