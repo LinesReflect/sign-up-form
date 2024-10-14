@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 395px;
+  margin: 10px 0 387px;
   gap: 25px;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.4);
@@ -54,9 +54,13 @@
 }
 
 .title-container {
-  margin: 0px 0 20px 100px;
+  margin: 0px 0 20px 50px;
   width: 75%;
   justify-self: flex-start;
+}
+
+h1 + p {
+  font-size: 25px;
 }
 
 .form-container {
@@ -68,7 +72,7 @@
 }
 
 .form-container > * {
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 .form-title {
@@ -77,7 +81,7 @@
 }
 
 #sign-up-form {
-  margin: 20px 0 20px 100px;
+  margin: 20px 0 20px 50px;
   display: flex;
   flex-wrap: wrap;
   width: 65%;
@@ -141,7 +145,7 @@ button:active {
 
 .sign-up-button {
   color: white;
-  margin: 10px 0 10px 100px;
+  margin: 10px 0 10px 50px;
   justify-self: left;
   background-color: #ABA9A0;
   border: none;
@@ -152,5 +156,14 @@ button:active {
 }
 
 .log-in {
-  margin: 10px 0 10px 100px;
+  margin: 10px 0 10px 50px;
+}
+
+a {
+  color: #ABA9A0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
 }
